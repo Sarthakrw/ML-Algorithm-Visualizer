@@ -147,10 +147,8 @@ fig3, ax3 = plt.subplots()
 
 ax3.plot(x_train, model_output(x_train, w_final, b_final, m), c = 'b', label = 'predicted value')
 ax3.scatter(x_train, y_train, marker = 'x', c = 'r', label = 'actual value')
-plt.title("Marks predictor")
+plt.title("Fitted Graph")
 
-plt.xlabel("Time Studied (Hours)")
-plt.ylabel("Marks Obtained (M.M 100)")
 
 plt.legend()
 st.pyplot(fig3)
